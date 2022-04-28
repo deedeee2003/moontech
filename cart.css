@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+body {
+    background-color: #78D5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: auto;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5em;
+    font-weight: lighter;
+    font-size: larger;
+    transition: all .5s ease;
+}
+
+header {
+    background-color: deepskyblue;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+nav ul li a:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* Main Content */
+main {
+    display: block;
+    min-height: 100%;
+}
+
+.cart-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: antiquewhite;
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+}
+
+td img {
+    height: 200px;
+    width: 200px;
+}
+
+td {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+td input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid;
+}
+
+.cart-container a {
+    display: inline-block;
+    text-align: right;
+    background: #ecba7a;
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 30px;
+    margin: 30px 30px;
+    margin-left: 85%;
+    transition: background;
+}
+
+.cart-container a:hover {
+    background: #ff9100;
+}
+
+/* Footer */
+footer {
+    background-color: #222222; 
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20%;
+}
+
+.social-icon {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 0 2%;
+}
+
+.social-icon:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 1em;
+    padding: 0 2%;
+}
+
+.lazy {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+}
+
+.lazy a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: #cccccc;
+    transition: color;
+}
+
+.lazy a:hover {
+    color: #ffffff;
+}

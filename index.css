@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-1323712.jpg&fm=jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center center;
+}
+
+/* Navigation bar */
+header {
+    background-color: deepskyblue;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: auto;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5em;
+    font-weight: lighter;
+    font-size: larger;
+    transition: all .5s ease;
+}
+
+nav ul li a:hover {
+    color: #000;
+    background: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+/* Main Content */
+.home-video {
+    text-align: center;
+    height: 100vh;
+}
+
+video {
+    height: 100%;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Product Category */
+.shop h2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 0.7em 0;
+}
+
+.category-container {
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    background-color: #F8F5F3;
+    height: 45vh;
+    width: 100%;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin: 5%;
+}
+
+.category img {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+}
+
+.category img:hover {
+    width: 60%;
+    height: 60%;
+}
+
+.category p{
+    font-weight: lighter;
+    font-size: larger;
+}
+
+/* About Us */
+.about {
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgb(255, 255, 255, 0.75)), url(image/aboutus-intro-background.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.about-part{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.about-part h1{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 3em;
+}
+
+.about-part p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 1.7;
+}
+
+.More {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.More a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: #222222;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 15px 30px;
+    margin: 0 30px;
+    cursor: pointer;
+    transition: color;
+}
+
+.btn:hover {
+    background: #222222;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #222222; 
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20%;
+}
+
+.social-icon {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 0 2%;
+}
+
+.social-icon:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 1em;
+    padding-right: 5%;
+}
+
+.lazy {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+}
+
+.lazy a {
+    padding-right: 10px;
+    color: #cccccc;
+    transition: color;
+}
+
+.lazy a:hover {
+    color: #ffffff;
+}
+
+
+
+
